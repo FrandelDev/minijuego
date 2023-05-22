@@ -1,0 +1,75 @@
+body {
+    background-image: url('img/space3.jpg');
+    background-repeat: round;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.game-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100vw;
+}
+
+canvas {
+    border: none;
+    border-radius: 8px;
+    background-color: transparent;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
+}
+
+button {
+    background-color: transparent;
+    border-radius: 8px;
+    border-color: #00a6ff;
+    font-family: inherit;
+    margin: 0;
+    padding: 5px 20px;
+    width: 100px;
+}
+
+button:not(:last-child) {
+    margin-right: 10px;
+}
+
+
+
+p {
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: 10%;
+}
+#consoleShip{
+    background-color: black;
+    
+    
+    
+}
+p b{
+    color: #00ff7b;
+}
+
+@media (max-width: 440px) {
+    button {
+        margin-top: 25px;
+    }
+
+    #up,
+    #down {
+        margin-left: 100%;
+        margin-right: 100%;
+    }
+}
